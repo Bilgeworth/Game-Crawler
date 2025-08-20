@@ -27,8 +27,8 @@ I've only tested it on Windows.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/bilgeworth/gamecrawler.git
-cd gamecrawler
+git clone https://github.com/bilgeworth/Game-Crawler.git
+cd Game-Crawler
 ```
 
 2. Create a virtual environment (recommended):
