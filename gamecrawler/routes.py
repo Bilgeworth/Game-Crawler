@@ -43,6 +43,8 @@ def index():
         games=games,
         settings=settings,
         running_ids=running_ids,   # NEW
+        global_default=settings["default_sandboxed"],
+        sandboxie_available=sandboxie_available(),
     )
 
 @bp.get("/settings")
