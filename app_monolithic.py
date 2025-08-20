@@ -27,7 +27,7 @@ else:
     GAMES_ROOT = Path(os.environ.get("GAMES_ROOT", os.getcwd())).resolve()
 
 APP_DIR = Path(__file__).resolve().parent
-SETTINGS_FILE = GAMES_ROOT / "_gamecrawler.json"  # portable, in Games root
+SETTINGS_FILE = GAMES_ROOT / "_gamecrawler.json"  # in Games root
 METAFILE = "game.json"
 
 ALLOWED_IMG_EXT = {".png", ".jpg", ".jpeg", ".webp"}
@@ -37,7 +37,7 @@ ALLOWED_EXEC_EXT = {
 }
 LINUX_EXEC_EXT = {".x86_64", ".x86", ".appimage", ".bin", ".run"}
 DEFAULT_TARGET_AR = 0.75
-APP_TITLE = "Portable Game Shelf (Flask)"
+APP_TITLE = "Game Crawler"
 
 # scanning depth for subfolders inside each game directory
 MAX_SCAN_DEPTH = 3  # root + 2 levels

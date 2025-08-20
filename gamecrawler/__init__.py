@@ -16,7 +16,7 @@ def create_app(games_root: str) -> Flask:
     app = Flask(__name__)
     app.secret_key = os.environ.get("FLASK_SECRET", "dev-" + os.urandom(8).hex())
     app.config["GAMES_ROOT"] = games_root
-    app.config["APP_TITLE"] = "Portable Game Shelf (Flask)"
+    app.config["APP_TITLE"] = "Game Crawler"
     app.config["SETTINGS_FILE"] = os.path.join(games_root, "_gamecrawler.json")
     app.config["METAFILE"] = "game.json"
     app.config["ALLOWED_IMG_EXT"] = {".png", ".jpg", ".jpeg", ".webp"}

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Smoke test for the split-only Portable Game Shelf.
+Smoke test for the split-only Game Crawler.
 
 Checks:
 - BFS depth lock
@@ -43,7 +43,7 @@ def mock_popen_calls():
 
 
 def main():
-    tmp = Path(tempfile.mkdtemp(prefix="gshelf_test_"))
+    tmp = Path(tempfile.mkdtemp(prefix="gcrawler_test_"))
     try:
         games = tmp / "Games"
         games.mkdir()

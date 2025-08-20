@@ -1,4 +1,4 @@
-# Portable Game Shelf
+# Game Crawler
 
 A Flask-based web application for organizing and launching games from local directories with optional sandboxing support.
 
@@ -11,7 +11,6 @@ A Flask-based web application for organizing and launching games from local dire
   - Windows: Sandboxie Plus integration
   - Cross-platform: WSL-based networking isolation
 - **Web Interface**: Clean, Bootstrap-based UI for managing your game collection
-- **Portable**: Self-contained with games and settings stored in your chosen directory
 
 ## Requirements
 
@@ -28,8 +27,8 @@ I've only tested it on Windows.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/portable-game-shelf.git
-cd portable-game-shelf
+git clone https://github.com/bilgeworth/gamecrawler.git
+cd gamecrawler
 ```
 
 2. Create a virtual environment (recommended):
